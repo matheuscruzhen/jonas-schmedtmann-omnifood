@@ -52,7 +52,7 @@
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-nutrition-outline icon-big"></i>
                 <h3>100% organic</h3>
-                <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!k</p>
+                <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
             </div>
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-cart-outline icon-big"></i>
@@ -266,15 +266,15 @@
                 <div class="plan-box">
                     <div>
                         <h3>Premium</h3>
-                        <p class="plan-price">399$ / month</p>
+                        <p class="plan-price">399$ <span>/ month</span></p>
                         <p class="plan-price-meal">That’s only 13.30$ per meal</p>
                     </div>
                     <div>
                         <ul>
-                            <li><i class="ion-ios-checkmark-empty">1 meal every day</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Order 24/7</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Access to newest creations</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Free delivery</i></li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                         </ul>
                     </div>
                     <div><a href="" class="btn btn-full">Sign up now</a></div>
@@ -284,15 +284,15 @@
                 <div class="plan-box">
                     <div>
                         <h3>Pro</h3>
-                        <p class="plan-price">149$ / month</p>
+                        <p class="plan-price">149$ <span>/ month</span></p>
                         <p class="plan-price-meal">That’s only 14.90$ per meal</p>
                     </div>
                     <div>
                         <ul>
-                            <li><i class="ion-ios-checkmark-empty">1 meal 10 days/month</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Order 24/7</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Access to newest creations</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Free delivery</i></li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                         </ul>
                     </div>
                     <div><a href="" class="btn btn-ghost">Sign up now</a></div>
@@ -302,18 +302,18 @@
                 <div class="plan-box">
                     <div>
                         <h3>Starter</h3>
-                        <p class="plan-price">19$ / meal</p>
-                        <p class="plan-price-meal"></p>
+                        <p class="plan-price">19$ <span>/ meal</span></p>
+                        <p class="plan-price-meal">&nbsp</p>
                     </div>
                     <div>
                         <ul>
-                            <li><i class="ion-ios-checkmark-empty">1 meal</i></li>
-                            <li><i class="ion-ios-checkmark-empty">Order from 8 am to 12 pm</i></li>
-                            <li><i class="ion-ios-close-empty"></i></li>
-                            <li><i class="ion-ios-checkmark-empty">Free delivery</i></li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Order from 8 am to 12 pm</li>
+                            <li><i class="ion-ios-close-empty icon-small"></i></li>
+                            <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                         </ul>
+                    </div>
                     <div><a href="" class="btn btn-ghost">Sign up now</a></div>
-                </div>
             </div>
         </div>
     </section>
@@ -321,18 +321,70 @@
 </body>
 </html>
 
-<!-- 
+<section-form>
+<div class="row">
+    <h2>We're happy to hear from you</h2>
+</div>
+<div class="row">
+    <form action="#" method="post" class="contact-form">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="name">Name</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input name="name" id="name" type="text" placeholder="Your name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="email">Email</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input name="email" id="email" type="email" placeholder="Your email" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="email">How did you find us</label>
+            </div>
+            <div class="col span-2-of-3">
+                <select name="find-us" id="find-us">
+                    <option value="search" selected>Search engine</option>
+                    <option value="friends">Friends</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="email">Newsletter</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input type="checkbox" name="news" id="news" checked> Yes, please
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="email">Drop us a line</label>
+            </div>
+            <div class="col span-2-of-3">
+                <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="email">&nbsp</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input type="submit" value="Send it!">
+            </div>
+        </div>
+    </form>
+</div>
+</section-form>
 
 
-
-
-
-Section 7: Contact form
-Title: We're happy to hear from you
-
-Fields to include:
-Name
-Email
 How did you find us?
 Newsletter
 Drop us a line
